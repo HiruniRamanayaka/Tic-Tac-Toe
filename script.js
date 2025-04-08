@@ -23,7 +23,10 @@ function cellClicked() {
     board[index] = currentPlayer;
     this.innerText = currentPlayer;
     checkWinner();
-    currentPlayer = currentPlayer === "X" ? "O" : "X";
+
+    if (gameActive) {
+        currentPlayer = currentPlayer === "X" ? "O" : "X";
+    }
 }
 
 function checkWinner() {
@@ -37,7 +40,7 @@ function checkWinner() {
     }
 
     if (roundWon) {
-        statusText.innerText = `Player ${currentPlayer === "X" ? "O" : "X"} Wins!`;
+        statusText.innerText = `Player ${currentPlayer} Wins!`;
 
         gameActive = false;
         return;
