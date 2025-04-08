@@ -17,6 +17,9 @@ A simple **Tic-Tac-Toe game** where two players can play against each other.
 2. Click on a cell to place your mark.
 3. The first player to get **three in a row** wins!  
 
+## **Live Demo**
+[🔗 View Live Project](#) (https://hiruniramanayaka.github.io/Tic-Tac-Toe/)
+
 ## **Demo Video**
 [Watch the Demo Video](https://youtu.be/796pCTaKeL4)
 
